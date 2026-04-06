@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Datasets (zu groß für Git)
+data/
+*.csv
+*.parquet
+*.json
+!requirements.json
+
+# Model weights
+models/
+*.pt
+*.pth
+*.h5
+*.onnx
+
+# Logs and experiment tracking
+logs/
+runs/
+mlruns/
+wandb/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
